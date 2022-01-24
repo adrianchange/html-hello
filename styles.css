@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: black;
+}
+div.container {
+        width: 300px;
+        margin: auto;
+        color: black;
+        height: 300px;
+    }
+
+header {
+    background-color: white;
+    display: inline-flex;
+    margin-top: 40px;
+}
+.fa-html5 {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+
+ .title {
+    margin: 0;
+    left: 60px;
+
+}
+.menu-icon {
+    bottom: 10px;
+    padding-right: 134px;
+    left: 160px;
+    padding-bottom: 10px;
+    top: 10px;
+    position: relative;
+  }
+div.post {
+    background-color: white;
+}
+img {
+    width: 300px;
+    height: 300px;
+    aspect-ratio: auto 200 / 200;
+    height: 200px;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+span {
+    padding-bottom: 10px;
+    top: 50px;
+    width: 50px;
+
+}
+
+.icon {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon-to-see {
+    position: relative;
+}
+
+
+.icon-to-save {
+    margin-left: 200px;
+
+}
+
+
+.footer {
+    padding-left:10px ;
+    padding-bottom: 10px;
+}
+.footer p, .footer h5 {
+    display:inline;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.story {
+    padding-left: 10px;
+
+}
+
