@@ -5,135 +5,205 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feed de instagram</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/cf5e645065.js" crossorigin="anonymous"></script>
 </head>
 <body>
-     <div class="container-fluid" style="height: 50px;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light row" style="height: 50px;">
-        <div class="container" >
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light row" style="height: 50px;">
+      <div class="container">
 
-           <!--Brand-->
+        <!--Brand-->
 
-            <a class="navbar-brand" href="https://instagram.com/?hl=es" >
-             <i class="fab fa-instagram" style="font-size: 40px; width: 3%; "></i>
-             <img src="https://logos-marcas.com/wp-content/uploads/2020/04/Instagram-Logotipo-2010-2013.png" style="width: 10%;" class="d-inline-block img-fluid align-text-top" alt="logo" loading="lazy">
-            </a>
+        <a class="navbar-brand" style="padding-left: 10px;">
+          <i class="fab fa-instagram" style="font-size: 30px; width: 2%; "></i>
+          <img src="https://logos-marcas.com/wp-content/uploads/2020/04/Instagram-Logotipo-2010-2013.png"
+            style="width: 10%; padding-left: 10px;" class="d-inline-block img-fluid align-text-top" alt="logo"
+            loading="lazy">
+        </a>
 
-        <div class="navbar-nav">
+        <div class="navbar-nav" style="padding-right: 150px;">
 
           <!-- Button trigger modal -->
 
-            <button type="button" class="btn btn-primary" style="background-color: green; width: 200px;" data-bs-toggle="modal" data-bs-target="#creatingModal">
-              Create a new post
-            </button>
+          <button type="button" class="btn btn-primary"
+            style="background-color: green; width: 200px; position: relative; right: 50px;" data-bs-toggle="modal"
+            data-bs-target="#creatingModal">
+            Create a new post
+          </button>
 
-                <!-- Modal -->
+          <!-- Modal -->
 
-      <div class="modal fade" id="creatingModal" tabindex="-1" aria-labelledby="creatingModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
+          <div class="modal fade" id="creatingModal" tabindex="-1" aria-labelledby="creatingModalLabel" style="width: 600px;"
+            aria-hidden="true" >
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
-              <div class="modal-header">
-              <h5 class="modal-title" id="creatingModalLabel"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-          <div class="modal-body">
-              <i class="fas fa-camera"></i>
-              <i class="fas fa-map-marker-alt"></i>
+                <div class="modal-header" style="display: inline-block;">
+                  <form>
+                    <div class="form-group" style="width: 100%;">
+                    <label for="FormControlarea1"></label>
+                  <textarea class="form-control border dark" style="width: 100%;" id="FormControlTextarea1" rows="2"></textarea>
+                
+                </div>
+              </form>
+                </div>
+                <div class="modal-body">
+                  <i class="fas fa-camera"></i>
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-primary">Publish</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-            <button type="button" class="btn btn-primary">Publish</button>
+          <!--Dropdown-->
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false" style="padding: 3px;">
+              <i class="fas fa-cog"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Log out</a>
+            </div>
           </div>
-              </div>
-              </div>
-              </div>
-                   <!--Dropdown-->
-
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                 <i class="fas fa-cog"></i>
-                </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <a class="dropdown-item" href="#">Log out</a>
-    </div>
-</div>
-
-
-  
-
-
-     
-
-
-
-
-
-
-
-      </nav>
-    </div>
-
-        <!--Pills-->
-    <div class="nav nav-pills">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-      <a class="nav justify-content-center">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </nav>
   </div>
 
+  <!--Pills-->
+  <nav>
+    <div class="nav nav-pills my-0 justify-content-center" style="margin-top: 0px;" id="pills-tab" role="tablist">
+      <a class="nav-item nav-link active bg-light text-dark mr-1" id="nav-stacked-tab" data-bs-toggle="pill" data-bs-target="#pills-stacked" type="button" role="tab" aria-controls="pills-stacked" aria-selected="true"><i class="fas fa-th"></i></a>
+      <a class="nav-item nav-link  bg-light text-dark " id="nav-displayed-tab" data-bs-toggle="pill" data-bs-target="#pills-displayed" type="button" role="tab" aria-controls="pills-displayed" aria-selected="false"><i class="fas fa-square"></i></a>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"></div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"></div>
+  </div>
+  <div class="tab-content" id="pills-tabContent">
 
+    <!-- Pills stacked-->
 
-     
-
-    
-
-
-    <div class="container"></div>
-      <div class="row col-md-6">
-        <img class="img-top" src="https://picsum.photos/id/1035/367/267" alt="image cap">
-        <div class="body">
-          <p class="text"><small class="text-muted">This is life!</small></p>
+    <div class="tab-pane fade show active" id="pills-stacked" role="tabpanel" aria-labelledby="pills-stacked-tab">
+      <div class="card-group">
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1035/367/267" class="card-img" alt="...">
+        </div>
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1016/367/267" class="card-img" alt="...">
+        </div>
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1015/367/267" class="card-img" alt="...">
         </div>
       </div>
-      <div class="row col-md-6">
-        <img class="img-top" src="https://picsum.photos/id/1016/367/267" alt="image cap">
-        <div class="card-body">
-          <p class="card-text"><small class="text-muted">Close to the sky.</small></p>
+      <div class="card-group">
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1013/367/267" class="card-img" alt="...">
+        </div>
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1014/367/267" class="card-img" alt="...">
+        </div>
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1010/367/267" class="card-img" alt="...">
         </div>
       </div>
-      <div class="row col-md-6"></div>
-        <img class="img-top" src="https://picsum.photos/id/1015/367/267" width="0" alt="image cap">
-        <div class="body">
-          <p class="text"><small class="text-muted">My kind of view!</small></p>
+      <div class="card-group">
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1009/367/267" class="card-img" alt="...">
+        </div>
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1008/367/267" class="card-img" alt="...">
+        </div>
+        <div class="card card m-2 border-0">
+          <img src="https://picsum.photos/id/1011/367/267" class="card-img" alt="...">
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          1 of 3
-        </div>
-        <div class="col-6">
-          2 of 3
-        </div>
-        <div class="col">
-          3 of 3
+
+
+    <div class="tab-pane fade " id="pills-displayed" role="tabpanel" aria-labelledby="pills-displayed-tab">
+      <!--Pill displayed-->
+     <div class="container-fluid bg-light">
+      <div class="card my-4 mx-auto" style="width: 600px;">
+        <div class="row justify-content-between align-items-center p-3">
+          <h5 class="col-10 card-title mb-0">My first photo</h5>
+          <h5 class="col-2 card-text">12/14</h5>
+          <img src="https://picsum.photos/id/1035/367/267" class="card-img-top" alt="...">
+          <p class="px-3 my-2"><strong>33 likes</strong></p>
+          <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <i class="far fa-heart"></i>
+         <p class="d-inline-block pl-2">comment</p>
         </div>
       </div>
-    </div>
-    
+      <div class="card my-4 mx-auto" style="width: 600px;">
+        <div class="row justify-content-between align-items-center p-3">
+          <h5 class="col-10 card-title mb-0">My first photo</h5>
+          <h5 class="col-2 card-text">13/14</h5>
+          <img src="https://picsum.photos/id/1016/367/267" class="card-img-top" alt="...">
+          <p class="px-3 my-2"><strong>27 likes</strong></p>
+          <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <i class="far fa-heart"></i>
+         <p class="d-inline-block pl-2">comment</p>
+        </div>
+      </div>
+      <div class="card my-4 mx-auto" style="width: 600px;">
+        <div class="row justify-content-between align-items-center p-3">
+          <h5 class="col-10 card-title mb-0">My first photo</h5>
+          <h5 class="col-2 card-text">14/14</h5>
+          <img src="https://picsum.photos/id/1015/367/267" class="card-img-top" alt="...">
+          <p class="px-3 my-2"><strong>50 likes</strong></p>
+          <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <i class="far fa-heart"></i>
+         <p class="d-inline-block pl-2">comment</p>
+        </div>
+      </div>
+        <div class="card my-4 mx-auto" style="width: 600px;">
+          <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">My first photo</h5>
+            <h5 class="col-2 card-text">15/14</h5>
+            <img src="https://picsum.photos/id/1013/367/267" class="card-img-top" alt="...">
+            <p class="px-3 my-2"><strong>30 likes</strong></p>
+            <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <i class="far fa-heart"></i>
+           <p class="d-inline-block pl-2">comment</p>
+          </div>
+        </div>
+          <div class="card my-4 mx-auto" style="width: 600px;">
+            <div class="row justify-content-between align-items-center p-3">
+              <h5 class="col-10 card-title mb-0">My first photo</h5>
+              <h5 class="col-2 card-text">12/14</h5>
+              <img src="https://picsum.photos/id/1014/367/267" class="card-img-top" alt="...">
+              <p class="px-3 my-2"><strong>33 likes</strong></p>
+              <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <i class="far fa-heart"></i>
+             <p class="d-inline-block pl-2">comment</p>
+            </div>
+
+           
+
+       </div>
+
+     </div>
 
 
 
 
- 
-  
-  
-    </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
