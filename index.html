@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/cf5e645065.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light row" style="height: 50px;">
@@ -35,18 +37,20 @@
 
           <!-- Modal -->
 
-          <div class="modal fade" id="creatingModal" tabindex="-1" aria-labelledby="creatingModalLabel" style="width: 600px;"
-            aria-hidden="true" >
+          <div class="modal fade container-fluid" id="creatingModal" tabindex="-1" aria-labelledby="creatingModalLabel"
+            data-keyboard="false" data-backdrop="static" role="dialog" style="width: 600px;left: 400px; "
+            aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header" style="display: inline-block;">
                   <form>
                     <div class="form-group" style="width: 100%;">
-                    <label for="FormControlarea1"></label>
-                  <textarea class="form-control border dark" style="width: 100%;" id="FormControlTextarea1" rows="2"></textarea>
-                
-                </div>
-              </form>
+                      <label for="FormControlarea1"></label>
+                      <textarea class="form-control border dark" style="width: 100%;" id="FormControlTextarea1"
+                        rows="2"></textarea>
+
+                    </div>
+                  </form>
                 </div>
                 <div class="modal-body">
                   <i class="fas fa-camera"></i>
@@ -70,7 +74,7 @@
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
+              <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Log out</a>
             </div>
           </div>
@@ -80,8 +84,12 @@
   <!--Pills-->
   <nav>
     <div class="nav nav-pills my-0 justify-content-center" style="margin-top: 0px;" id="pills-tab" role="tablist">
-      <a class="nav-item nav-link active bg-light text-dark mr-1" id="nav-stacked-tab" data-bs-toggle="pill" data-bs-target="#pills-stacked" type="button" role="tab" aria-controls="pills-stacked" aria-selected="true"><i class="fas fa-th"></i></a>
-      <a class="nav-item nav-link  bg-light text-dark " id="nav-displayed-tab" data-bs-toggle="pill" data-bs-target="#pills-displayed" type="button" role="tab" aria-controls="pills-displayed" aria-selected="false"><i class="fas fa-square"></i></a>
+      <a class="nav-item nav-link active bg-light text-dark mr-1" id="nav-stacked-tab" data-bs-toggle="pill"
+        data-bs-target="#pills-stacked" type="button" role="tab" aria-controls="pills-stacked" aria-selected="true"><i
+          class="fas fa-th"></i></a>
+      <a class="nav-item nav-link  bg-light text-dark " id="nav-displayed-tab" data-bs-toggle="pill"
+        data-bs-target="#pills-displayed" type="button" role="tab" aria-controls="pills-displayed"
+        aria-selected="false"><i class="fas fa-square"></i></a>
     </div>
   </nav>
   <div class="tab-content" id="nav-tabContent">
@@ -131,79 +139,84 @@
 
     <div class="tab-pane fade " id="pills-displayed" role="tabpanel" aria-labelledby="pills-displayed-tab">
       <!--Pill displayed-->
-     <div class="container-fluid bg-light">
-      <div class="card my-4 mx-auto" style="width: 600px;">
-        <div class="row justify-content-between align-items-center p-3">
-          <h5 class="col-10 card-title mb-0">My first photo</h5>
-          <h5 class="col-2 card-text">12/14</h5>
-          <img src="https://picsum.photos/id/1035/367/267" class="card-img-top" alt="...">
-          <p class="px-3 my-2"><strong>33 likes</strong></p>
-          <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <i class="far fa-heart"></i>
-         <p class="d-inline-block pl-2">comment</p>
+      <div class="container-fluid bg-light">
+        <div class="card my-4 mx-auto" style="width: 600px;">
+          <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">My first photo</h5>
+            <h5 class="col-2 card-text">12/14</h5>
+            <img src="https://picsum.photos/id/1035/367/267" class="card-img-top" alt="...">
+            <p class="px-3 my-2"><strong>33 likes</strong></p>
+            <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <i class="far fa-heart"></i>
+            <p class="d-inline-block pl-2">comment</p>
+          </div>
         </div>
-      </div>
-      <div class="card my-4 mx-auto" style="width: 600px;">
-        <div class="row justify-content-between align-items-center p-3">
-          <h5 class="col-10 card-title mb-0">My first photo</h5>
-          <h5 class="col-2 card-text">13/14</h5>
-          <img src="https://picsum.photos/id/1016/367/267" class="card-img-top" alt="...">
-          <p class="px-3 my-2"><strong>27 likes</strong></p>
-          <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <i class="far fa-heart"></i>
-         <p class="d-inline-block pl-2">comment</p>
+        <div class="card my-4 mx-auto" style="width: 600px;">
+          <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">My first photo</h5>
+            <h5 class="col-2 card-text">13/14</h5>
+            <img src="https://picsum.photos/id/1016/367/267" class="card-img-top" alt="...">
+            <p class="px-3 my-2"><strong>27 likes</strong></p>
+            <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <i class="far fa-heart"></i>
+            <p class="d-inline-block pl-2">comment</p>
+          </div>
         </div>
-      </div>
-      <div class="card my-4 mx-auto" style="width: 600px;">
-        <div class="row justify-content-between align-items-center p-3">
-          <h5 class="col-10 card-title mb-0">My first photo</h5>
-          <h5 class="col-2 card-text">14/14</h5>
-          <img src="https://picsum.photos/id/1015/367/267" class="card-img-top" alt="...">
-          <p class="px-3 my-2"><strong>50 likes</strong></p>
-          <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <i class="far fa-heart"></i>
-         <p class="d-inline-block pl-2">comment</p>
+        <div class="card my-4 mx-auto" style="width: 600px;">
+          <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">My first photo</h5>
+            <h5 class="col-2 card-text">14/14</h5>
+            <img src="https://picsum.photos/id/1015/367/267" class="card-img-top" alt="...">
+            <p class="px-3 my-2"><strong>50 likes</strong></p>
+            <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <i class="far fa-heart"></i>
+            <p class="d-inline-block pl-2">comment</p>
+          </div>
         </div>
-      </div>
         <div class="card my-4 mx-auto" style="width: 600px;">
           <div class="row justify-content-between align-items-center p-3">
             <h5 class="col-10 card-title mb-0">My first photo</h5>
             <h5 class="col-2 card-text">15/14</h5>
             <img src="https://picsum.photos/id/1013/367/267" class="card-img-top" alt="...">
             <p class="px-3 my-2"><strong>30 likes</strong></p>
-            <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           <i class="far fa-heart"></i>
-           <p class="d-inline-block pl-2">comment</p>
+            <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <i class="far fa-heart"></i>
+            <p class="d-inline-block pl-2">comment</p>
           </div>
         </div>
-          <div class="card my-4 mx-auto" style="width: 600px;">
-            <div class="row justify-content-between align-items-center p-3">
-              <h5 class="col-10 card-title mb-0">My first photo</h5>
-              <h5 class="col-2 card-text">12/14</h5>
-              <img src="https://picsum.photos/id/1014/367/267" class="card-img-top" alt="...">
-              <p class="px-3 my-2"><strong>33 likes</strong></p>
-              <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             <i class="far fa-heart"></i>
-             <p class="d-inline-block pl-2">comment</p>
-            </div>
-
-           
-
-       </div>
-
-     </div>
+        <div class="card my-4 mx-auto" style="width: 600px;">
+          <div class="row justify-content-between align-items-center p-3">
+            <h5 class="col-10 card-title mb-0">My first photo</h5>
+            <h5 class="col-2 card-text">12/14</h5>
+            <img src="https://picsum.photos/id/1014/367/267" class="card-img-top" alt="...">
+            <p class="px-3 my-2"><strong>33 likes</strong></p>
+            <p class="px-3">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <i class="far fa-heart"></i>
+            <p class="d-inline-block pl-2">comment</p>
+          </div>
 
 
 
+        </div>
+
+      </div>
 
 
 
 
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
